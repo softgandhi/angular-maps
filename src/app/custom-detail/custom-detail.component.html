@@ -1,0 +1,16 @@
+<h2>Custome Detail: Info Window</h2>
+<div>
+    This page demonstrate on how to display a Information Window on map, on Marker click.
+</div>
+<h4>Click on any marker to see the detail</h4>
+<div id="mapContainer" class="border">
+    <agm-map #agmMap class="map" [latitude]="map.lat" [longitude]="map.lng" [zoom]="5" [disableDefaultUI]="false"
+        [zoomControl]="true" (mapClick)="mapClicked($event)">
+        <agm-marker *ngFor="let m of states;" (markerClick)="onMarkerClick(m);" [latitude]="m.lat" [longitude]="m.lng"
+            [label]="m.capital">
+            <agm-info-window #infoWindow>
+                <app-state-info [model]="m"></app-state-info>
+            </agm-info-window>
+        </agm-marker>
+    </agm-map>
+</div>

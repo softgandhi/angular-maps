@@ -1,0 +1,9 @@
+<div class="info container">
+    <h3 class="title olive">{{model.name}}</h3>
+
+    <div *ngFor="let item of props" class="pt-1">
+        <span class="display-label">{{item.name}}</span>:
+        <span class="display-text">{{model[item.field]}}</span>
+    </div>
+
+</div>

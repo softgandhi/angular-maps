@@ -1,0 +1,15 @@
+<h2>Reverse Geocoding</h2>
+<div>
+    Choose a location to get human readable address.
+</div>
+<div *ngIf="chosenLocation" class="text-center h4">
+    Location: lat: {{chosenLocation.lat}}, lng: {{chosenLocation.lng}}. <br />
+    Address: {{address}}
+</div>
+<div id="mapContainer" class="border">
+    <agm-map #agmMap class="map" [latitude]="map.lat" [longitude]="map.lng" [zoom]="5" [disableDefaultUI]="false"
+        [zoomControl]="true" (mapClick)="mapClicked($event)">
+        <agm-marker *ngIf="chosenLocation" [latitude]="chosenLocation.lat" [longitude]="chosenLocation.lng">
+        </agm-marker>
+    </agm-map>
+</div>

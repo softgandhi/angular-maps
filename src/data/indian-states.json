@@ -1,0 +1,266 @@
+[
+    {
+        "name": "Maharashtra",
+        "capital": "Mumbai",
+        "country": "India",
+        "lat": "18.987807",
+        "lng": "72.836447",
+        "population": "18978000"
+    },
+    {
+        "name": "Delhi",
+        "capital": "Delhi",
+        "country": "India",
+        "lat": "28.651952",
+        "lng": "77.231495",
+        "population": "15926000"
+    },
+    {
+        "name": "West Bengal",
+        "capital": "Kolkata",
+        "country": "India",
+        "lat": "22.562627",
+        "lng": "88.363044",
+        "population": "14787000"
+    },
+    {
+        "name": "Tamil Nadu ",
+        "capital": "Chennai",
+        "country": "India",
+        "lat": "13.084622",
+        "lng": "80.248357",
+        "population": "7163000"
+    },
+    {
+        "name": "Karnataka",
+        "capital": "Bengalūru",
+        "country": "India",
+        "lat": "12.977063",
+        "lng": "77.587106",
+        "population": "6787000"
+    },
+    {
+        "name": "Andhra Pradesh",
+        "capital": "Hyderabad",
+        "country": "India",
+        "lat": "17.384052",
+        "lng": "78.456355",
+        "population": "6376000"
+    },
+    {
+        "name": "Uttar Pradesh",
+        "capital": "Lucknow",
+        "country": "India",
+        "lat": "26.839281",
+        "lng": "80.923133",
+        "population": "2695000"
+    },
+    {
+        "name": "Bihar",
+        "capital": "Patna",
+        "country": "India",
+        "lat": "25.615379",
+        "lng": "85.101027",
+        "population": "2158000"
+    },
+    {
+        "name": "Madhya Pradesh",
+        "capital": "Bhopal",
+        "country": "India",
+        "lat": "23.254688",
+        "lng": "77.402892",
+        "population": "1727000"
+    },
+    {
+        "name": "Jammu and Kashmir",
+        "capital": "Srinagar",
+        "country": "India",
+        "lat": "34.085652",
+        "lng": "74.805553",
+        "population": "1140000"
+    },
+    {
+        "name": "Jharkhand",
+        "capital": "Ranchi",
+        "country": "India",
+        "lat": "23.347768",
+        "lng": "85.338564",
+        "population": "1044000"
+    },
+    {
+        "name": "Chandigarh",
+        "capital": "Chandigarh",
+        "country": "India",
+        "lat": "30.736292",
+        "lng": "76.788398",
+        "population": "979000"
+    },
+    {
+        "name": "Kerala",
+        "capital": "Thiruvananthapuram",
+        "country": "India",
+        "lat": "8.485498",
+        "lng": "76.949238",
+        "population": "954000"
+    },
+    {
+        "name": "Chhattisgarh",
+        "capital": "Raipur",
+        "country": "India",
+        "lat": "21.233333",
+        "lng": "81.633333",
+        "population": "875000"
+    },
+    {
+        "name": "Odisha",
+        "capital": "Bhubaneshwar",
+        "country": "India",
+        "lat": "20.272411",
+        "lng": "85.833853",
+        "population": "844000"
+    },
+    {
+        "name": "Uttarakhand",
+        "capital": "Dehra Dūn",
+        "country": "India",
+        "lat": "30.324427",
+        "lng": "78.033922",
+        "population": "714223"
+    },
+    {
+        "name": "Meghalaya",
+        "capital": "Shillong",
+        "country": "India",
+        "lat": "25.573987",
+        "lng": "91.896807",
+        "population": "375527"
+    },
+    {
+        "name": "Mizoram",
+        "capital": "Aizawl",
+        "country": "India",
+        "lat": "23.736701",
+        "lng": "92.714596",
+        "population": "283021"
+    },
+    {
+        "name": "Manipur",
+        "capital": "Imphal",
+        "country": "India",
+        "lat": "24.808053",
+        "lng": "93.944203",
+        "population": "264986"
+    },
+    {
+        "name": "Puducherry",
+        "capital": "Puducherry",
+        "country": "India",
+        "lat": "11.933812",
+        "lng": "79.829792",
+        "population": "227411"
+    },
+    {
+        "name": "Tripura",
+        "capital": "Agartala",
+        "country": "India",
+        "lat": "23.836049",
+        "lng": "91.279386",
+        "population": "203264"
+    },
+    {
+        "name": "Himachal Pradesh",
+        "capital": "Shimla",
+        "country": "India",
+        "lat": "31.104423",
+        "lng": "77.166623",
+        "population": "173503"
+    },
+    {
+        "name": "Andaman and Nicobar Islands",
+        "capital": "Port Blair",
+        "country": "India",
+        "lat": "11.666667",
+        "lng": "92.75",
+        "population": "127562"
+    },
+    {
+        "name": "Nagaland",
+        "capital": "Kohima",
+        "country": "India",
+        "lat": "25.674673",
+        "lng": "94.110988",
+        "population": "92113"
+    },
+    {
+        "name": "Sikkim",
+        "capital": "Gangtok",
+        "country": "India",
+        "lat": "27.325739",
+        "lng": "88.612155",
+        "population": "77900"
+    },
+    {
+        "name": "Goa",
+        "capital": "Panaji",
+        "country": "India",
+        "lat": "15.498289",
+        "lng": "73.824541",
+        "population": "65586"
+    },
+    {
+        "name": "Arunachal Pradesh",
+        "capital": "Itanagar",
+        "country": "India",
+        "lat": "27.102349",
+        "lng": "93.692047",
+        "population": "44971"
+    },
+    {
+        "name": "Daman and Diu",
+        "capital": "Daman",
+        "country": "India",
+        "lat": "20.414315",
+        "lng": "72.83236",
+        "population": "39737"
+    },
+    {
+        "name": "Dadra and Nagar Haveli",
+        "capital": "Silvassa",
+        "country": "India",
+        "lat": "20.273855",
+        "lng": "72.996728",
+        "population": "27359"
+    },
+    {
+        "name": "Assam",
+        "capital": "Dispur",
+        "country": "India",
+        "lat": "26.135638",
+        "lng": "91.800688",
+        "population": "16140"
+    },
+    {
+        "name": "Lakshadweep",
+        "capital": "Kavaratti",
+        "country": "India",
+        "lat": "10.566667",
+        "lng": "72.616667",
+        "population": "10688"
+    },
+    {
+        "name": "Rajasthan",
+        "capital": "Jaipur",
+        "country": "India",
+        "lat": "26.913312",
+        "lng": "75.787872",
+        "population": ""
+    },
+    {
+        "name": "Gujarat",
+        "capital": "Ghandinagar",
+        "country": "India",
+        "lat": "23.216667",
+        "lng": "72.683333",
+        "population": ""
+    }
+]

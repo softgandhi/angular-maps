@@ -1,0 +1,12 @@
+<h2>Display a Location using Marker</h2>
+<div>
+    This page demonstrate on how to display a particular Location on map, whose latitude and longitude is known.
+</div>
+<div id="mapContainer" class="border">
+    <agm-map #agmMap class="map" [latitude]="map.lat" [longitude]="map.lng" [zoom]="5" [disableDefaultUI]="false"
+        [zoomControl]="true" (mapClick)="mapClicked($event)">
+        <agm-marker *ngFor="let m of states;" (markerClick)="onMarkerClick(m);" [latitude]="m.lat" [longitude]="m.lng"
+            [label]="m.capital">
+        </agm-marker>
+    </agm-map>
+</div>

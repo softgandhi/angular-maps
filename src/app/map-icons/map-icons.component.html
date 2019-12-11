@@ -1,0 +1,17 @@
+<h2>Map Icons/Images</h2>
+<div>
+    Click on the colors below to change the map Icons:
+</div>
+<div class="py-2">
+    <button class="btn btn-outline-primary" *ngFor="let color of colors" (click)="setIcon(color)">
+        <img [src]="color.iconUrl" [attr.alt]="color.name" style="width:20px;">
+        {{color.name}}
+    </button>
+</div>
+<div id="mapContainer" class="border">
+    <agm-map #agmMap class="map" [latitude]="map.lat" [longitude]="map.lng" [zoom]="5" [zoomControl]="true">
+        <agm-marker *ngFor="let m of states;" [latitude]="m.lat" [longitude]="m.lng" [label]="m.capital"
+            [iconUrl]="iconUrl">
+        </agm-marker>
+    </agm-map>
+</div>
